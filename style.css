@@ -1,0 +1,183 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-white-color: #F9FaF8;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#top-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.header-img img {
+    width: 120px;
+    height: 60px;
+}
+
+.header-img {
+    margin: 0;
+}
+
+.under-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.under-header-img img {
+    width: 640px;
+    height: 320px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--main-white-color);
+    margin: 0;
+}
+
+.left-side-text p {
+    color: var(--main-white-color);
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+
+}
+
+a {
+    color: var(--main-white-color);
+    text-decoration: none;
+}
+
+li {
+    padding: 1em;
+}
+
+
+#mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustrations-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustrations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustrations-container img {
+    margin: 1em;
+    width: 128px;
+    height: 128px;
+    border-radius: 1em;
+    border: 2px solid #3882F6;
+}
+
+.illustration-text {
+    width: 128px;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding: 2em;
+}
+
+.quote-section figure{
+
+    margin: 0;
+}
+
+figcaption{
+    text-align: right;
+}
+
+
+.quote-text{
+    width: 500px;
+    font-weight: 300;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    overflow-wrap: break-word;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sign-up{
+    padding: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-up-section{
+    padding: 1.5em 2em 1.5em 2em;
+    border-radius: 0.5em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+}
+
+.text-section p{
+    color: var(--main-white-color);
+    margin: 0;
+}
+
+.sign-up-undertext{
+    color: #E5E7Eb;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: var(--main-white-color);
+}
